@@ -6,10 +6,10 @@ import static com.codeborne.selenide.CollectionCondition.itemWithText;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
-public class JUnitForSelenide {
+public class JUnitForSelenideTest {
 
   @Test
-    void jUnitShouldBeForSelenide(){
+    void jUnitShouldBeForSelenideTest(){
 
       // Откройте страницу Selenide в Github
       open("https://github.com/selenide/selenide");
